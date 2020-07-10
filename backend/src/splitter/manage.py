@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+#!/Users/girishsaraf/Desktop/Projects/venv/billsplitter/bin/python
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'splitter_backend.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'splitter.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
